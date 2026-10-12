@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "backend": {
+    "release": "master-956-1b0ba10",
+    "revision": "1b0ba10893f4e2e0656103011fc1c4645a02a734",
+    "directory": "stable-diffusion-1b0ba10",
+    "file": "sd-master-1b0ba10-bin-win-cpu-x64.zip",
+    "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-cpu-x64.zip",
+    "size": 17543461,
+    "sha256": "39c2ea1cc03f697864c858ad0b22b9b8ce62f945ba428e8596a814527e6db6fb"
+  },
+  "models": [
+    {
+      "role": "diffusion",
+      "file": "Qwen-Image-2.1-Turbo-AD-Q4_K.gguf",
+      "repository": "AtomicChat/Qwen-Image-2.1-Turbo-GGUF",
+      "revision": "bb25d06bc74119c12207243d68917951e6d9c232",
+      "url": "https://huggingface.co/AtomicChat/Qwen-Image-2.1-Turbo-GGUF/resolve/bb25d06bc74119c12207243d68917951e6d9c232/Qwen-Image-2.1-Turbo-AD-Q4_K.gguf",
+      "size": 4201694944,
+      "sha256": "4bb73c53cbe284bbd6d69b9fdc59539c531f0389dd2aa567663d777f8130bc59"
+    },
+    {
+      "role": "llm",
+      "file": "Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+      "repository": "Qwen/Qwen3-VL-8B-Instruct-GGUF",
+      "revision": "f982a07559d4a2f6c8744d840bf6fccab30eea96",
+      "url": "https://huggingface.co/Qwen/Qwen3-VL-8B-Instruct-GGUF/resolve/f982a07559d4a2f6c8744d840bf6fccab30eea96/Qwen3VL-8B-Instruct-Q4_K_M.gguf",
+      "size": 5027784800,
+      "sha256": "67d1659bfe71b89d50b45a4ad1a9e5b997e5bb16ce5da66a6a6167abd569e9e2"
+    },
+    {
+      "role": "vae",
+      "file": "qwen_image_2.1_vae_bf16.safetensors",
+      "repository": "Comfy-Org/Qwen-Image-2.1",
+      "revision": "df94239739eef7205973a145ffa6f441f7b64e84",
+      "url": "https://huggingface.co/Comfy-Org/Qwen-Image-2.1/resolve/df94239739eef7205973a145ffa6f441f7b64e84/vae/qwen_image_2.1_vae_bf16.safetensors",
+      "size": 675509688,
+      "sha256": "bb21f7473051e1ac368515dd3f2e15cd44d7a11748ee8823e1ddca3e4876b7c9"
+    }
+  ]
+}

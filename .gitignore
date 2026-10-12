@@ -1,0 +1,24 @@
+# .NET build and publish output, including nested source/test projects.
+[Bb]in/
+[Oo]bj/
+
+# Downloaded weights, native backend, caches, and per-run temporary files.
+/models/
+/backend/
+/.cache/
+/.work/
+
+# Generated images and inference logs; keep source images/log fixtures elsewhere.
+/output/
+
+# Interrupted downloads.
+*.part
+
+# Local IDE state. Shared .vscode settings remain trackable.
+.vs/
+.idea/
+*.csproj.user
+*.rsuser
+*.suo
+*.sln.docstates
+*.sln.DotSettings.user

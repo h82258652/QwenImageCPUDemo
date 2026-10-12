@@ -1,0 +1,9 @@
+Qwen is licensed under the Qwen RESEARCH LICENSE AGREEMENT, Copyright (c) 2026 Hangzhou Tongyi Laboratory Technology Co., Ltd. All Rights Reserved.
+
+This demo uses Qwen-Image-2.1-Turbo through an unmodified community GGUF quantization
+and the Qwen Image 2.1 VAE. It uses the official Qwen3-VL-8B-Instruct GGUF text encoder.
+Model URLs, revisions, and hashes are recorded in assets.lock.json.
+
+The Qwen Research License does not permit commercial use without a separate license.
+The console application is named CPU Image Demo; Qwen is used descriptively to
+identify the unmodified upstream model.
