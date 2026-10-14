@@ -1,5 +1,5 @@
 {
-  "schemaVersion": 1,
+  "schemaVersion": 2,
   "backend": {
     "release": "master-956-1b0ba10",
     "revision": "1b0ba10893f4e2e0656103011fc1c4645a02a734",
@@ -8,6 +8,15 @@
     "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-cpu-x64.zip",
     "size": 17543461,
     "sha256": "39c2ea1cc03f697864c858ad0b22b9b8ce62f945ba428e8596a814527e6db6fb"
+  },
+  "gpuBackend": {
+    "release": "master-956-1b0ba10",
+    "revision": "1b0ba10893f4e2e0656103011fc1c4645a02a734",
+    "directory": "stable-diffusion-1b0ba10-vulkan",
+    "file": "sd-master-1b0ba10-bin-win-vulkan-x64.zip",
+    "url": "https://github.com/leejet/stable-diffusion.cpp/releases/download/master-956-1b0ba10/sd-master-1b0ba10-bin-win-vulkan-x64.zip",
+    "size": 30123908,
+    "sha256": "9e8b9baff514fe5dfb77e51bf08d85f11e6f10128eac14d4474c87f563309725"
   },
   "models": [
     {
